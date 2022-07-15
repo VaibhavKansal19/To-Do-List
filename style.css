@@ -1,0 +1,77 @@
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#head{
+    width: 100%;
+    background-color: #06d6a0;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+input{
+    font-size: 20px;
+    width: 60%;
+    height: 30px;
+}
+
+#add{
+    font-size: 20px;
+    width: 10%;
+    height: 30px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+#task:nth-of-type(odd){
+    background-color:white;
+    border:  1px solid black;
+    border-radius: 5px;
+    padding: 0px 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+#task:nth-of-type(even){
+    background-color: #b2f7ef;
+    border:  1px solid black;
+    border-radius: 5px;
+    padding: 0px 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+#task p{
+    display: inline-block;
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+}
+
+#task button{
+    position: absolute;
+    right: 120px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    color:white;
+    background-color: #2d6a4f;
+}
+
+#task #del{
+    position: absolute;
+    right: 40px;
+    padding: 10px;
+    color:white;
+    background-color: #2d6a4f;
+}
+
